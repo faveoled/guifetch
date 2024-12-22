@@ -30,6 +30,8 @@ final logoProvider = FutureProvider<ui.Image>((ref) async {
         return _assetToImage("assets/os_images/endeavour.png");
       case "manjaro":
         return _assetToImage("assets/os_images/manjaro.png");
+      case "ubuntu":
+        return _assetToImage("assets/os_images/ubuntu.png");
       default:
         return _assetToImage("assets/os_images/linux.png");
     }
